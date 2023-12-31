@@ -42,38 +42,7 @@ export default function UsersPage() {
             <td>Admin</td>
             <td>Active</td>
             <td className={styles.buttons}>
-              <Link href="/">
-                <button className={`${styles.button} ${styles.view}`}>
-                  View
-                </button>
-              </Link>
-              <Link href="/">
-                <button className={`${styles.button} ${styles.delete}`}>
-                  Delete
-                </button>
-              </Link>
-            </td>
-          </tr>
-
-          <tr>
-            <td>
-              <div className={styles.user}>
-                <Image
-                  src="/noavatar.png"
-                  alt=""
-                  width={40}
-                  height={40}
-                  className={styles.userImage}
-                />
-                Jhon Doe
-              </div>
-            </td>
-            <td>jhon@gmail.com</td>
-            <td>13.01.2022</td>
-            <td>Admin</td>
-            <td>Active</td>
-            <td className={styles.buttons}>
-              <Link href="/">
+              <Link href="/dashboard/users/test">
                 <button className={`${styles.button} ${styles.view}`}>
                   View
                 </button>

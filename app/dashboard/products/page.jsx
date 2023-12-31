@@ -42,7 +42,7 @@ export default function ProductsPage() {
             <td>13.01.2022</td>
             <td>72</td>
             <td className={styles.buttons}>
-              <Link href="/">
+              <Link href="/dashboard/products/test">
                 <button className={`${styles.button} ${styles.view}`}>
                   View
                 </button>

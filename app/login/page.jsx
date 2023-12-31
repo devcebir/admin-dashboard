@@ -1,7 +1,10 @@
-import React from 'react'
+import styles from "@/app/ui/login/login.module.css";
+import LoginForm from "../ui/login/loginForm";
 
 export default function Login() {
   return (
-    <div>Login</div>
-  )
+    <div className={styles.container}>
+      <LoginForm />
+    </div>
+  );
 }
